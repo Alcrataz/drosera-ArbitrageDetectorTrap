@@ -1,0 +1,24 @@
+[profile.default]
+src = "src"
+out = "out"
+libs = ["lib"]
+test = "test"
+script = "script"
+cache_path = "cache"
+broadcast = "broadcast"
+solc_version = "0.8.20"
+optimizer = true
+optimizer_runs = 200
+
+remappings = [
+    "ds-test/=lib/forge-std/lib/ds-test/src/",
+    "forge-std/=lib/forge-std/src/",
+    "drosera-contracts/=lib/drosera-contracts/src/",
+    "@openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/",
+    "@chainlink/contracts/=lib/chainlink/contracts/src/"
+]
+
+[rpc_endpoints]
+hoodi = "https://rpc.hoodi.ethpandaops.io"
+hoodi_ankr = "https://rpc.ankr.com/eth_hoodi/YOUR_KEY"
+
