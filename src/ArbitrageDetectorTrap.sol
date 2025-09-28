@@ -1,10 +1,12 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.20;
 
+import {ITrap} from "drosera-contracts/interfaces/ITrap.sol";
+
 /// @title Arbitrage Detector Trap
 /// @notice Detects profitable cross-DEX arbitrage opportunities using 5 safety conditions
 /// @dev Uses mock DEX data for testing, follows Drosera trap interface
-contract ArbitrageDetectorTrap {
+contract ArbitrageDetectorTrap is ITrap {
     
     // Configuration constants
     uint256 public constant MIN_PRICE_GAP = 50; // 0.5% minimum gap (basis points)
