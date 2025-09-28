@@ -1,1 +1,1 @@
-# drosera-WhaleTrap
+# drosera-ArbitrageDetectorTrap
