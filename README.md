@@ -36,12 +36,12 @@ Only when all conditions pass does it trigger an alert, ensuring you only get no
 
 ## Core Features
 
-- **Real-time monitoring** of cross-DEX price differences
-- **Safety validation** prevents MEV traps and unprofitable trades
-- **Gas cost calculation** ensures trades remain profitable after fees
-- **Persistence checking** filters out fake opportunities  
-- **Performance tracking** monitors your success rate and profits
-- **Configurable thresholds** adjust sensitivity to your trading style
+- Mock DEX monitoring simulates cross-DEX price differences for testing
+- Safety validation prevents MEV traps and unprofitable trades with 5 built-in conditions
+- Gas cost calculation ensures simulated trades remain profitable after fees
+- Persistence checking filters out fake opportunities that only exist for one block
+- Opportunity logging records detected arbitrage scenarios (not actual trading performance)
+- Configurable thresholds adjust detection sensitivity for different market conditions
 
 ## Getting Started
 
